@@ -1,0 +1,9 @@
+{
+    "require": {
+        "wohali/oauth2-discord-new": "^1.0",
+        "defuse/php-encryption": "^2.2",
+        "restcord/restcord": "^0.3.0",
+        "danielmewes/php-rql": "dev-master",
+        "imagine/imagine": "^0.7.1"
+    }
+}
