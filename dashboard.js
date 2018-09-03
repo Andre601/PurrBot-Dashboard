@@ -45,15 +45,18 @@ welcomeColorInput.on('input', function() {
     color = this.value;
     updatePreview();
 });
+color = welcomeColorInput.val();
+
 var welcomeImageSelect = $('#setting-welcome-image');
 welcomeImageSelect.on('change', function() {
     image = this.value;
     updatePreview();
 });
+image = welcomeImageSelect.find(':selected').val();
 
 var imgPreview = $('#preview-img');
 function updatePreview() {
     imgPreview.attr('src', 'preview.php?image=' + image + "&color=" + color.replace('#', '%23'));
 }
 
-updatePreview();
+setTimeout(function(){ updatePreview() }, 100);
