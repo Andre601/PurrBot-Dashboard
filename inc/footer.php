@@ -1,7 +1,7 @@
 		<hr>
 		<div class="container">
 			<p>
-				Copyright &copy; <?=date('Y');?> Purr
+				Site under <a href="https://github.com/Andre601/PurrBot-Dashboard/blob/master/LICENSE">Apache License 2.0</a>
 				<span class="float-right">
 					Dashboard built with <i class="fas fa-heart"></i> by <a href="https://github.com/xXAndrew28Xx">Andrew</a> and <a href="https://github.com/TonyMaster21">Tony</a>.
 				</span>
