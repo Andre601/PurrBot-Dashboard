@@ -1,5 +1,5 @@
 <div class="alert alert-danger" role="alert">
-    This server does not have Purr on it. Please <a href="https://github.com/Andre601/NekoBot#inviting-the-bot">invite NekoBot</a> to it.
+    This server does not have Purr on it. Please <a href="https://github.com/Andre601/PurrBot#inviting-the-bot">invite *Purr*</a> to it.
 </div>
 <br>
 <div class="card">
