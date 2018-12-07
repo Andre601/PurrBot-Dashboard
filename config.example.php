@@ -53,7 +53,7 @@ $config = array(
 		    'wood_bright.png' => 'wood_bright',
 		    'wood_dark.png' => 'wood_dark',
 		    'wood_grey.png' => 'wood_grey',
-		    'random.png' => 'random',
+		    'random.png' => 'random'
         )
     )
 );
