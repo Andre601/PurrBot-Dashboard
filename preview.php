@@ -112,7 +112,7 @@ if ($color) {
     $discordUser = $discord->user->getCurrentUser([]);
     $user = $discordUser->username . '#' . $discordUser->discriminator;
     $templateOverlay->draw()->text($user, $font, new \Imagine\Image\Point(318, 140));
-    $templateOverlay->draw()->text('You are user #85', $font, new \Imagine\Image\Point(320, 200));
+    $templateOverlay->draw()->text('You are user #100', $font, new \Imagine\Image\Point(320, 200));
 } else {
     $font = new \Imagine\Gd\Font(__DIR__ . '/arial.ttf', 48, (new \Imagine\Image\Palette\RGB())->color([0,0,0]));
     $templateOverlay->draw()->text('Invalid color', $font, new \Imagine\Image\Point(318, 48));
