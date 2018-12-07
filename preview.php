@@ -87,7 +87,7 @@ if ($fileName == null) {
 
 // IMAGE
 $imagine = new \Imagine\Gd\Imagine();
-$image = $imagine->create(new \Imagine\Image\Box(1000, 300));
+$image = $imagine->create(new \Imagine\Image\Box(1920, 300));
 //
 
 $base = config('imageSelect.directory') . '/';
