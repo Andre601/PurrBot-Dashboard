@@ -1,3 +1,6 @@
+> **Due to too many technical complications and the site not being easy to use (And also it being in PHP which apparently people hate) 
+is this dashboard no longer used!**
+
 # Purr Dashboard
 The Purr Dashboard is a web-based dashboard for [Purr](https://github.com/Andre601/NekoBot).
 
